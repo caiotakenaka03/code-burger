@@ -1,7 +1,7 @@
-import express from 'express'
-import routes from './routes.js'
+const express =  require('express')
+import routes from './routes'
 
-import  '../src/database'
+import  './database'
 
 class App {
   constructor() {
